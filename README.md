@@ -44,7 +44,7 @@ docker build -t your-image-name .
 - Replace your-image-name with a suitable name for your Docker image.
 
 ### Run the Docker container:
-docker run -p 7755:7755 fyle-backend-assignment-image
+docker run -p 7755:7755 your-image-name 
 
 ### Access the application:
 Open your browser and navigate to http://localhost:7755
